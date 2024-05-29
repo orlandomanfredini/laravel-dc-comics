@@ -4,5 +4,5 @@
 
 @section('content')
 <h1>CIAO</h1>
-<a href=""></a>
+
 @endsection

@@ -18,4 +18,4 @@ Route::get('/', function () {
     return view('layout');
 });
 
-Route::get('/comics', [ComicController::class])->name('comics.index');
+Route::get('/comics', [ComicController::class, 'index'])->name('comics.index');

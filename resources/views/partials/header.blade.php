@@ -4,7 +4,7 @@
             <div class="col-auto">LOGO</div>
             <div class="col-auto">
                 <ul class="list-unstyled m-0 p-0 d-flex">
-                   <li><a href="{{route('comics.index')}}"></a></li>
+                   <li><a class="text-white" href="{{route('comics.index')}}">LINK</a></li>
                 </ul>
             </div>
         </div>
