@@ -19,3 +19,5 @@ Route::get('/', function () {
 });
 
 Route::get('/comics', [ComicController::class, 'index'])->name('comics.index');
+
+Route::get('/comics/{comic}', [ComicController::class, 'show'])->name('comics.show')->where('comic', '[0-9]+');
