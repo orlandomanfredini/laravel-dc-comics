@@ -3,6 +3,7 @@
 @section('content')
 <div class="container text-center">
 <h1>vista SHOW</h1>
+<a class="d-block text-center my-4" href="{{route('comics.edit', $comic)}}">Edit</a>
 <h2>STAI VISUALISSANZO {{$comic->title}}</h2>
 <p>{{$comic->description}}</p>
 <strong>Prezzo:{{$comic->price}}</strong>

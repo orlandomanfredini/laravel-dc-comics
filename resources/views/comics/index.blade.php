@@ -13,6 +13,7 @@
       <th scope="col">SERIES</th>
       <th scope="col">SALES DATE</th>
       <th scope="col">TYPE</th>
+      <th>MODIFICA</th>
     </tr>
   </thead>
   <tbody>
@@ -26,6 +27,7 @@
       <td>{{$comic->series}}</td>
       <td>{{$comic->sales_date}}</td>
       <td>{{$comic->type}}</td>
+      <td><a href="{{route('comics.edit', $comic)}}">Edit</a></td>
       
     </tr>
     @endforeach
