@@ -11,5 +11,12 @@
 <div>Saga:{{$comic->series}}</div>
 <div>Uscita:{{$comic->sales_date}}</div>
 <a href="{{route('comics.index')}}">HOME</a>
+
+<form action="{{route('comics.destroy', $comic)}}" method="POST">
+          @csrf
+          @method('DELETE')
+
+          <button class="btn btn-danger">TRASH</button>
+        </form>
 </div>
 @endsection
