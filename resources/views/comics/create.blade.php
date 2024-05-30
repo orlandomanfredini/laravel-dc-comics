@@ -43,6 +43,11 @@
           <input type="tetx" class="form-control" name="type" id="type" rows="3" placeholder="Genere/Tipo"></input>
         </div>
 
+        <div class="mb-3">
+          <label for="sales_date" class="form-label">Data Uscita</label>
+          <input type="tetx" class="form-control" name="sales_date" id="sales_date" rows="3" placeholder="Inserisci data Uscita"></input>
+        </div>
+
         <button class="btn btn-primary">Crea</button>
       </form>
     </div>

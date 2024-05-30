@@ -25,10 +25,11 @@ class ComicController extends Controller
 
     public function store(Request $request){
         $form_data= $request->all();
+        
 
-        $new_comics= Comic::create($form_data);
+        $new_comic= Comic::create($form_data);
 
-        return to_route('comics.show', $new_comics);
+        return to_route('comics.show', $new_comic);
         
     }
 }
